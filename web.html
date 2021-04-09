@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+      <meta charset="UTF-8">
+      <title>ELECTRONIC GADGETS CART</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   <body></body>
+</html>
+<div class="container-fluid mt-5">
+   <h2 class="mb-5 text-center">ELECTRONIC GADGETS CART</h2>
+   <div class="row justify-content-center">
+      <div class="col-md-8">
+         <div class="table-responsive">
+            <table id="myTable" class="table">
+               <thead>
+                  <tr>
+                     <th>Product</th>
+                     <th>Name</th>
+                     <th>Qty</th>
+                     <th>Price</th>
+                     <th class="text-right">
+                        <span id="amount" class="amount">Amount</span>
+                     </th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\1.jpeg">
+                              <!-- Location Path of an image -->
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>OnePlus 9 Pro</p>
+                        <p><a href="https://www.oneplus.in/9-pro">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="879" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\2.jpg">
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Samsung Galaxy S20</p>
+                        <p><a href="https://www.samsung.com/in/smartphones/galaxy-s20/specs/">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="1399" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                     <tr>
+                        <td>
+                           <div class="product-img">
+                              <div class="img-prdct">
+                                 <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\3.jpg">
+                              </div>
+                           </div>
+                        </td>
+                        <td>
+                           <p>Apple iPhone 11 Pro</p>
+                           <p><a href="https://www.apple.com/in/iphone/">Click Here To Know More About This Device</a></p>
+                        </td>
+                        <td>
+                           <div class="button-container">
+                              <button class="cart-qty-plus" type="button" value="+">+</button>
+                              <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                              <button class="cart-qty-minus" type="button" value="-">-</button>
+                           </div>
+                        </td>
+                        <td>
+                           <input type="text" value="1149" class="price form-control" disabled>
+                        </td>
+                        <td align="right">$ <span id="amount" class="amount">0</span>
+                        </td>
+                     </tr>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\4.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Google Pixel 5</p>
+                        <p><a href="https://www.gsmarena.com/google_pixel_5-10386.php">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="699" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\5.jpg">
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Realme C15</p>
+                        <p><a href="https://www.gsmarena.com/realme_c15-10326.php">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="169" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\6.png">
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Nokia 5.4</p>
+                        <p><a href="https://www.gsmarena.com/nokia_5_4-10624.php">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="249" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\7.png">
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Redmi Note 10</p>
+                        <p><a href="https://www.gsmarena.com/xiaomi_redmi_note_10-10247.php">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="299" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\8.jpg">
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Dell Inspiron 15 3000 Series</p>
+                        <p><a href="https://gadgets.ndtv.com/dell-inspiron-15-3000-8024">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="445" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\9.jpg">
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Lenovo Ideapad 330</p>
+                        <p><a href="https://gadgets.ndtv.com/lenovo-ideapad-330-8011">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="1071" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\10.jpg">
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Lenovo IdeaPad Gaming 3</p>
+                        <p><a href="https://gadgets.ndtv.com/lenovo-ideapad-gaming-3-price-in-india-94228">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="923" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\11.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Apple MacBook Pro 13”</p>
+                        <p><a href="https://www.apple.com/in/macbook-pro-13/specs/">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="1338" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\12.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Alienware M15 Gaming Laptop</p>
+                        <p><a href="https://www.dell.com/en-us/shop/dell-laptops/alienware-m15-r3-gaming-laptop/spd/alienware-m15-r3-laptop">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="2838" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\13.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>HP Envy 13 </p>
+                        <p><a href="https://gadgets.ndtv.com/hp-envy-13-ab070tu-5367">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="937" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\14.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>HP Envy x360 13</p>
+                        <p><a href="https://gadgets.ndtv.com/hp-envy-x360-13-ag0035au-12301">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="1003" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\15.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Apple Watch Series 6</p>
+                        <p><a href="https://www.gsmarena.com/apple_watch_series_6-10448.php">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="499" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\16.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>OnePlus Watch</p>
+                        <p><a href="https://www.gsmarena.com/oneplus_watch-10808.php">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="159" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\17.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Samsung Galaxy Watch</p>
+                        <p><a href="https://www.gsmarena.com/samsung_galaxy_watch-9289.php">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="401" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\18.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>boAt Storm Smartwatch</p>
+                        <p><a href="https://gadgets.ndtv.com/boat-storm-smartwatch-price-in-india-99152">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="35" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\19.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Fitbit Surge Watch</p>
+                        <p><a href="https://www.gadgetsnow.com/fitnessband/Fitbit-Surge">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="266" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="product-img">
+                           <div class="img-prdct">
+                              <img src="C:\Users\user\Desktop\ecommerce\ImageFiles\20.jpg"> 
+                           </div>
+                        </div>
+                     </td>
+                     <td>
+                        <p>Fastrack Reflex 3.0</p>
+                        <p><a href="https://www.gadgetsnow.com/fitnessband/Fastrack-Reflex-30">Click Here To Know More About This Device</a></p>
+                     </td>
+                     <td>
+                        <div class="button-container">
+                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                           <button class="cart-qty-minus" type="button" value="-">-</button>
+                        </div>
+                     </td>
+                     <td>
+                        <input type="text" value="33" class="price form-control" disabled>
+                     </td>
+                     <td align="right">$ <span id="amount" class="amount">0</span>
+                     </td>
+                  </tr>
+               </tbody>
+               <tfoot>
+                  <tr>
+                     <td colspan="4"></td>
+                     <td align="right">
+                        <strong>TOTAL = $  <span id="total" class="total">0</span>
+                        </strong>
+                     </td>
+                  </tr>
+               </tfoot>
+            </table>
+         </div>
+      </div>
+   </div>
+</div>
+ <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<script  src="./script.js"></script>
